@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 前方載入 CSS reset */
+
+/* 基本設定 */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Castoro", sans-serif;
+    line-height: 1.5;
+}
+
+img{
+ max-width: 100%;
+ height: auto;
+ vertical-align: middle;   
+}
+
+
+/* 共用css */
+
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.m-8{
+    margin-bottom: 8px;
+}
+.m-12{
+    margin-bottom: 12px;
+}
+.m-16{
+    margin-bottom: 16px;
+}
+
+a{
+color: #000000;
+ text-decoration: none;   
+    }
+
+a:hover{
+color:rgb(109, 108, 108);
+text-decoration: underline;;
+}
+/*  版頭 */
+header{
+    padding-top: 160px;    
+}
+
+/* .m-img{
+    margin: 0 320px;
+    } */
+
+header img{
+        display: block;
+        margin: 0 auto;
+}
+      
+header h2{
+text-align: right;
+}
+
+/* .m-left{
+    margin-left:646px;
+} */
+
+h1,h2{
+    font-size: 128px;
+    letter-spacing: 0.12em;
+}
+
+/*  內文 */
+
+.content{
+background-color: #EFEFEF;
+/* height: 432px; */
+margin-bottom: 80px;
+
+}
+
+.content p{
+    width: 636px;
+    font-size: 32px;
+    padding: 48px 0;
+    margin-left: auto;
+}
+
+/* list*/
+.list{    
+    width:636px;
+    padding-bottom: 40px;
+}
+
+.list h3{
+    font-size: 40px;
+    color: #AE0000;
+    border-bottom: 3px solid;    
+    margin-bottom: 16px; 
+}
+
+.list li{
+    font-size: 24px;   
+}
+
+.list .tt{
+    font-size: 20px !important;   
+    color: #949494;
+    font-style: italic;
+}   
+
+
+
+.footer{
+    background-color: #000000;
+    margin-top: 120px;
+}
+
+.logo{
+    text-align: center;
+    padding: 64px 0;
+}
+
+.logo li{
+    padding:0 20px;
+    display: inline-block;
+}
+
+.overflow{
+overflow: hidden;
+}
